@@ -27,10 +27,11 @@
         <input v-model="newAuthor" placeholder="Author Name" required/>
         <select v-model="newCategory" required>
         <option disabled value="">Select Category</option>
-        <option>Science</option>
-        <option>Math</option>
-        <option>Poetry</option>
-        <option>History</option>
+        <option>Android</option>
+      <option>Nativescript</option>
+      <option>React</option>
+      <option>Devops</option>
+      <option>Swift</option>
       </select>
         <button type="submit">Add New Blog Post</button>
       </form>
@@ -38,10 +39,11 @@
 
     <select v-model="selected">
       <option disabled value="">Filter by Caegory</option>
-      <option>Science</option>
-      <option>Math</option>
-      <option>Poetry</option>
-      <option>History</option>
+      <option>Android</option>
+      <option>Nativescript</option>
+      <option>React</option>
+      <option>Devops</option>
+      <option>Swift</option>
     </select>
 
     <div v-for="post in filteredByCategory" class="post">
