@@ -1,0 +1,101 @@
+#app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+li span {
+  display: inline-block;
+  width: 100px;
+}
+
+.contain {
+  width: 500px;
+  padding: 10px 40px;
+}
+
+input, select {
+  font-family: 'Work Sans', sans-serif;
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  width: 96.5%;
+  text-align: center;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  -webkit-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+  background: #222;
+  margin-bottom: 15px;
+}
+button:hover {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+select {
+  width: 100%;
+}
+
+.post, .new {
+  background: #eee;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 15px 0 10px;
+}
+.post p, .new p {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.new {
+  background: #666;
+  border: #222;
+  margin-bottom: 20px;
+}
+.new input {
+  margin: 0 0 10px;
+}
+.new select {
+  width: 96.5%;
+  margin-bottom: 10px;
+}
+.new h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin: 10px 0;
+  color: white;
+}
+
+.category {
+  border: 1px solid black;
+  background: white;
+  color: black;
+  float: right;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
